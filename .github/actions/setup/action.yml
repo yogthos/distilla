@@ -1,0 +1,126 @@
+name: setup
+description: >
+  Everything a job needs before it can run the suite: system libs, the jolt
+  compiler, the native pieces (DuckDB, llama.cpp, the distilla shims) and the
+  toy GGUF models the llama.cpp tests run on.
+
+inputs:
+  target:
+    description: jolt release asset target (aarch64-macos or x86_64-linux)
+    required: true
+  jolt-pin:
+    description: jolt release tag to use instead of the latest one
+    default: ''
+  toy-revision:
+    # ggml-org/models revision stories260K.gguf is fetched at; the sha256 below
+    # is its content at that revision
+    description: ggml-org/models git revision of the toy model
+    default: 499bc8821c6b12b4e53c5bffcb21ec206f212d81
+
+runs:
+  using: composite
+  steps:
+    # The memory module's matmuls dlopen OpenBLAS (see :jolt/native in
+    # deps.edn); macOS has the Accelerate framework. libyaml backs the training
+    # recipes (jolt-lang/yaml). cmake builds llama.cpp.
+    - name: System deps (Linux)
+      if: runner.os == 'Linux'
+      shell: bash
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y --no-install-recommends libopenblas-dev libyaml-dev cmake unzip
+
+    - name: System deps (macOS)
+      if: runner.os == 'macOS'
+      shell: bash
+      run: brew list libyaml >/dev/null 2>&1 || brew install libyaml
+
+    # Latest release by default; the JOLT_PIN repository variable overrides
+    # without a commit. Echoed so the log records which compiler ran the suite.
+    - name: Resolve jolt version
+      shell: bash
+      env:
+        GH_TOKEN: ${{ github.token }}
+        JOLT_PIN: ${{ inputs.jolt-pin }}
+      run: |
+        if [ -n "$JOLT_PIN" ]; then
+          ver="$JOLT_PIN"
+          echo "jolt: PINNED to $ver via the JOLT_PIN repository variable"
+        else
+          ver=$(gh api repos/jolt-lang/jolt/releases/latest --jq .tag_name)
+          [ -n "$ver" ] && [ "$ver" != "null" ] || { echo "could not resolve latest jolt"; exit 1; }
+          echo "jolt: latest release is $ver"
+        fi
+        echo "JOLT_VERSION=$ver" >> "$GITHUB_ENV"
+
+    - name: Install jolt
+      shell: bash
+      run: |
+        url="https://github.com/jolt-lang/jolt/releases/download/${JOLT_VERSION}/jolt-${JOLT_VERSION}-${{ inputs.target }}.tar.gz"
+        curl -fsSL -o jolt.tar.gz "$url"
+        mkdir -p "$HOME/.jolt-dist"
+        tar xzf jolt.tar.gz -C "$HOME/.jolt-dist" --strip-components=1
+        rm jolt.tar.gz
+        echo "$HOME/.jolt-dist" >> "$GITHUB_PATH"
+
+    - name: jolt version
+      shell: bash
+      run: jolt --version
+
+    # llama.cpp at the commit native/build.sh pins, built for the CPU: the
+    # checkout and its build tree are cached on that commit (and the OS), so
+    # most runs only relink the shims. -v1 is the layout: bump it when the
+    # cached paths change.
+    - name: llama.cpp revision
+      id: llama
+      shell: bash
+      run: echo "rev=$(sed -n 's/^LLAMA_REV=\([0-9a-f]*\).*/\1/p' native/build.sh)" >> "$GITHUB_OUTPUT"
+
+    - name: Cache llama.cpp and DuckDB
+      uses: actions/cache@v4
+      with:
+        path: |
+          native/llama.cpp
+          native/libduckdb.*
+          native/duckdb.h
+        key: native-${{ runner.os }}-${{ runner.arch }}-${{ steps.llama.outputs.rev }}-generic-${{ hashFiles('native/build.sh') }}-v1
+
+    # DuckDB (prebuilt), llama.cpp (CPU, for the generic CPU since the cached
+    # build may run on another runner; GitHub's mac runners have no usable
+    # Metal device), the llama.cpp shim with the training graph, and the
+    # optimizer kernels
+    - name: Build the native pieces
+      shell: bash
+      env:
+        DISTILLA_GPU: none
+        DISTILLA_NATIVE: 'OFF'
+      run: jolt native
+
+    - name: Cache the toy models
+      id: toys
+      uses: actions/cache@v4
+      with:
+        path: ~/toy-models
+        key: toy-models-${{ inputs.toy-revision }}-${{ hashFiles('dev/make_qwen3_toy.py') }}-v1
+
+    # stories260K (a 1 MB llama-architecture GGUF), and the same weights
+    # rewritten as a qwen3-architecture model (QK-norm, NEOX RoPE) by
+    # dev/make_qwen3_toy.py with llama.cpp's gguf-py
+    - name: Fetch and derive the toy models
+      shell: bash
+      env:
+        REV: ${{ inputs.toy-revision }}
+        SHA256_STORIES: 270cba1bd5109f42d03350f60406024560464db173c0e387d91f0426d3bd256d
+      run: |
+        mkdir -p "$HOME/toy-models"
+        cd "$HOME/toy-models"
+        [ -s stories260K.gguf ] || curl -fsSL --retry 3 -o stories260K.gguf \
+          "https://huggingface.co/ggml-org/models/resolve/${REV}/tinyllamas/stories260K.gguf"
+        echo "$SHA256_STORIES  stories260K.gguf" | shasum -a 256 -c -
+        cd "$GITHUB_WORKSPACE"
+        if [ ! -s "$HOME/toy-models/qwen3-toy.gguf" ]; then
+          python3 -m venv "$RUNNER_TEMP/gguf-venv"
+          "$RUNNER_TEMP/gguf-venv/bin/pip" install -q numpy pyyaml tqdm requests
+          "$RUNNER_TEMP/gguf-venv/bin/python" dev/make_qwen3_toy.py "$HOME/toy-models/stories260K.gguf" "$HOME/toy-models/qwen3-toy.gguf"
+        fi
+        echo "TOY_MODELS=$HOME/toy-models" >> "$GITHUB_ENV"

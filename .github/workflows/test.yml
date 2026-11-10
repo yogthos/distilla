@@ -1,0 +1,41 @@
+name: test
+
+# The unit and parity suites on every push and PR, on macOS and Linux. The
+# llama.cpp tests (shim, training graph, prefix reuse, runtime learning) run on
+# two 1 MB toy models: a llama-architecture one in the main run, a
+# qwen3-architecture one after it. See .github/actions/setup.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: test-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: macos-latest
+            target: aarch64-macos
+          - os: ubuntu-latest
+            target: x86_64-linux
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ./.github/actions/setup
+        with:
+          target: ${{ matrix.target }}
+          jolt-pin: ${{ vars.JOLT_PIN }}
+
+      - name: Test
+        run: DISTILLA_TEST_GGUF="$TOY_MODELS/stories260K.gguf" jolt -M:test
+
+      - name: Test the llama.cpp paths on a qwen3-architecture model
+        run: DISTILLA_TEST_GGUF="$TOY_MODELS/qwen3-toy.gguf" jolt -M:test distilla.llama-test

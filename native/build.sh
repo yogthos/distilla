@@ -13,8 +13,10 @@
 #   native/libdistilla_ops.{so,dylib}   the optimizer kernels (distilla_ops.c)
 #
 # DISTILLA_GPU=cuda|metal|vulkan|hip|none picks llama.cpp's backend: metal by
-# default on macOS, none elsewhere. DISTILLA_SKIP_LLAMA=1 builds only DuckDB,
-# enough for the tests.
+# default on macOS, none elsewhere. DISTILLA_SKIP_LLAMA=1 builds only DuckDB
+# and the optimizer kernels, enough for the tests without the llama.cpp ones.
+# DISTILLA_NATIVE=OFF builds llama.cpp for the generic CPU instead of this
+# one (CI, where a cached build may run on another machine).
 set -e
 
 DUCKDB_VERSION=${DUCKDB_VERSION:-v1.5.6}
@@ -76,7 +78,7 @@ B=$L/build-$GPU
 if [ ! -f "$B/bin/libllama.$EXT" ]; then
   cmake -S "$L" -B "$B" -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=ON \
     -DLLAMA_BUILD_TESTS=OFF -DLLAMA_BUILD_EXAMPLES=OFF -DLLAMA_BUILD_SERVER=OFF \
-    -DLLAMA_BUILD_TOOLS=OFF -DLLAMA_CURL=OFF -DGGML_NATIVE=ON "$@"
+    -DLLAMA_BUILD_TOOLS=OFF -DLLAMA_CURL=OFF -DGGML_NATIVE="${DISTILLA_NATIVE:-ON}" "$@"
   cmake --build "$B" --config Release -j "$JOBS" --target llama ggml
 fi
 

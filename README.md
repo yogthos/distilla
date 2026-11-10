@@ -300,6 +300,10 @@ python3 -m venv .venv && .venv/bin/pip install torch safetensors nltk rouge-scor
 MEMORILLA_SRC=~/src/memorilla/memorilla .venv/bin/python dev/make_fixtures.py test/fixtures
 ```
 
+CI (`.github/workflows/test.yml`) runs the suite on macOS and Linux on every push to `main` and every
+pull request. It uses the latest jolt release; set the `JOLT_PIN` repository variable to a tag to pin
+one. It runs the llama.cpp tests on `stories260K.gguf` and on the Qwen3-layout toy derived from it.
+
 Optional suites:
 
 - `DISTILLA_TEST_GGUF=path/to/any-small.gguf jolt test` exercises the llama.cpp shim: tokenisation,

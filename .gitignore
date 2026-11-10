@@ -1,0 +1,15 @@
+.cpcache/
+.jolt/
+.nrepl-port
+target/
+native/llama.cpp/
+native/*.so
+native/*.dylib
+native/*.a
+native/duckdb.h
+native/duckdb-download/
+data/
+results/
+models/
+checkpoints/
+.venv/

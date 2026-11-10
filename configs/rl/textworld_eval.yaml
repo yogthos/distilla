@@ -1,0 +1,14 @@
+# Evaluation: memorilla's rl/configs/textworld_eval.yaml. --model is a checkpoint, `untrained` or `no-memory`.
+#   jolt rl-eval --config configs/rl/textworld_eval.yaml --val_data data/textworld/test.parquet \
+#     --decoder ... --encoder ... --model runs/textworld/checkpoints/global_step_30 --export_path evals/memorilla
+template: chatml
+num_memories: 8
+num_heads: 8
+num_self_attn_layers: 1
+num_cross_attn_layers: 2
+max_turns: 50
+max_generate_length: 128
+max_input_length: 4096
+n_ctx: 8192
+eval_n_samples_per_prompt: 3
+eval_temperature: 0.6

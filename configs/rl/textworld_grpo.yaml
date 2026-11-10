@@ -1,0 +1,27 @@
+# GRPO training of the memory module on TextWorld: memorilla's rl/configs/textworld_grpo.yaml in distilla's keys.
+# The frozen agent and encoder are GGUF files: Qwen3-4B-Instruct-2507 and Qwen3-Embedding-4B.
+#   jolt rl-train --config configs/rl/textworld_grpo.yaml --train_data data/textworld/train.parquet \
+#     --val_data data/textworld/validation.parquet --decoder Qwen3-4B-Instruct-2507-BF16.gguf \
+#     --encoder Qwen3-Embedding-4B-BF16.gguf --ckpt_path runs/textworld/checkpoints --export_path runs/textworld/exports
+template: chatml
+num_memories: 8
+num_heads: 8
+num_self_attn_layers: 1
+num_cross_attn_layers: 2
+dropout: 0.1
+max_turns: 50
+n_samples_per_prompt: 16
+max_generate_length: 128
+temperature: 1.0
+eval_temperature: 0.0
+eval_n_samples_per_prompt: 1
+max_input_length: 16000
+n_ctx: 16384
+lr: 5.0e-4
+weight_decay: 0.01
+max_grad_norm: 1.0
+epochs: 10
+train_batch_size: 4
+micro_train_batch_size: 2
+eval_interval: 3
+ckpt_interval: 3

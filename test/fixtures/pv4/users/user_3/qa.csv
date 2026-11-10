@@ -1,0 +1,46 @@
+index,category,question,choice_a,choice_b,choice_c,choice_d,choice_e,correct_choice,rationale
+0,0,Teaching Style & Students question 0?,"Option bravo, with a comma, for Teaching Style & Students question 0?",Option echo for Teaching Style & Students question 0?,"Option ""charlie"" for Teaching Style & Students question 0?",Option delta for Teaching Style & Students question 0?,Option alpha for Teaching Style & Students question 0?,A,"Because of the persona.
+<WORD_COUNTS>
+A: 4 | B: 4 | C: 4 | D: 4 | E: 4"
+1,0,Teaching Style & Students question 1?,Option echo for Teaching Style & Students question 1?,Option delta for Teaching Style & Students question 1?,"Option ""charlie"" for Teaching Style & Students question 1?",Option alpha for Teaching Style & Students question 1?,"Option bravo, with a comma, for Teaching Style & Students question 1?",B,"Because of the persona.
+<WORD_COUNTS>
+A: 4 | B: 4 | C: 4 | D: 4 | E: 4"
+2,0,Teaching Style & Students question 2?,Option echo for Teaching Style & Students question 2?,"Option ""charlie"" for Teaching Style & Students question 2?",Option delta for Teaching Style & Students question 2?,"Option bravo, with a comma, for Teaching Style & Students question 2?",Option alpha for Teaching Style & Students question 2?,E,"Because of the persona.
+<WORD_COUNTS>
+A: 4 | B: 4 | C: 4 | D: 4 | E: 4"
+3,0,Teaching Style & Students question 3?,Option echo for Teaching Style & Students question 3?,"Option bravo, with a comma, for Teaching Style & Students question 3?","Option ""charlie"" for Teaching Style & Students question 3?",Option delta for Teaching Style & Students question 3?,Option alpha for Teaching Style & Students question 3?,A,"Because of the persona.
+<WORD_COUNTS>
+A: 4 | B: 4 | C: 4 | D: 4 | E: 4"
+4,0,Teaching Style & Students question 4?,"Option bravo, with a comma, for Teaching Style & Students question 4?","Option ""charlie"" for Teaching Style & Students question 4?",Option echo for Teaching Style & Students question 4?,Option delta for Teaching Style & Students question 4?,Option alpha for Teaching Style & Students question 4?,B,"Because of the persona.
+<WORD_COUNTS>
+A: 4 | B: 4 | C: 4 | D: 4 | E: 4"
+5,1,Running Routine question 0?,Option delta for Running Routine question 0?,"Option ""charlie"" for Running Routine question 0?",Option alpha for Running Routine question 0?,Option echo for Running Routine question 0?,"Option bravo, with a comma, for Running Routine question 0?",E,"Because of the persona.
+<WORD_COUNTS>
+A: 4 | B: 4 | C: 4 | D: 4 | E: 4"
+6,1,Running Routine question 1?,"Option bravo, with a comma, for Running Routine question 1?",Option echo for Running Routine question 1?,Option alpha for Running Routine question 1?,"Option ""charlie"" for Running Routine question 1?",Option delta for Running Routine question 1?,E,"Because of the persona.
+<WORD_COUNTS>
+A: 4 | B: 4 | C: 4 | D: 4 | E: 4"
+7,1,Running Routine question 2?,Option echo for Running Routine question 2?,"Option bravo, with a comma, for Running Routine question 2?","Option ""charlie"" for Running Routine question 2?",Option alpha for Running Routine question 2?,Option delta for Running Routine question 2?,D,"Because of the persona.
+<WORD_COUNTS>
+A: 4 | B: 4 | C: 4 | D: 4 | E: 4"
+8,1,Running Routine question 3?,"Option bravo, with a comma, for Running Routine question 3?",Option echo for Running Routine question 3?,Option delta for Running Routine question 3?,Option alpha for Running Routine question 3?,"Option ""charlie"" for Running Routine question 3?",B,"Because of the persona.
+<WORD_COUNTS>
+A: 4 | B: 4 | C: 4 | D: 4 | E: 4"
+9,1,Running Routine question 4?,Option echo for Running Routine question 4?,Option delta for Running Routine question 4?,"Option bravo, with a comma, for Running Routine question 4?","Option ""charlie"" for Running Routine question 4?",Option alpha for Running Routine question 4?,D,"Because of the persona.
+<WORD_COUNTS>
+A: 4 | B: 4 | C: 4 | D: 4 | E: 4"
+10,2,Food question 0?,Option echo for Food question 0?,"Option ""charlie"" for Food question 0?",Option alpha for Food question 0?,Option delta for Food question 0?,"Option bravo, with a comma, for Food question 0?",E,"Because of the persona.
+<WORD_COUNTS>
+A: 4 | B: 4 | C: 4 | D: 4 | E: 4"
+11,2,Food question 1?,"Option ""charlie"" for Food question 1?",Option echo for Food question 1?,"Option bravo, with a comma, for Food question 1?",Option alpha for Food question 1?,Option delta for Food question 1?,E,"Because of the persona.
+<WORD_COUNTS>
+A: 4 | B: 4 | C: 4 | D: 4 | E: 4"
+12,2,Food question 2?,"Option bravo, with a comma, for Food question 2?","Option ""charlie"" for Food question 2?",Option echo for Food question 2?,Option delta for Food question 2?,Option alpha for Food question 2?,E,"Because of the persona.
+<WORD_COUNTS>
+A: 4 | B: 4 | C: 4 | D: 4 | E: 4"
+13,2,Food question 3?,Option delta for Food question 3?,Option alpha for Food question 3?,"Option ""charlie"" for Food question 3?","Option bravo, with a comma, for Food question 3?",Option echo for Food question 3?,E,"Because of the persona.
+<WORD_COUNTS>
+A: 4 | B: 4 | C: 4 | D: 4 | E: 4"
+14,2,Food question 4?,"Option ""charlie"" for Food question 4?",Option delta for Food question 4?,Option alpha for Food question 4?,Option echo for Food question 4?,"Option bravo, with a comma, for Food question 4?",A,"Because of the persona.
+<WORD_COUNTS>
+A: 4 | B: 4 | C: 4 | D: 4 | E: 4"

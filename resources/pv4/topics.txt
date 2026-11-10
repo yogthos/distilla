@@ -1,0 +1,29 @@
+You are a data generation specialist. Your task is to create a list of {num_topics} unique, single-sentence summaries for potential chat interactions with the user described in the persona below.
+Your goal is to ensure maximum diversity in the generated summaries, covering all facets of the user's life and personality as described in their profile.
+
+**User Persona:**
+{persona}
+
+**Instructions:**
+1. **Read and internalize the entire persona document.** Your summaries MUST reflect its details.
+2. **Generate a list of exactly {num_topics} unique sentences.** Each sentence should describe a plausible interaction.
+3. **Ensure comprehensive coverage of the persona:**
+   * **Work Life:** Include tasks related to their professional work, client interactions, brainstorming, and any mentioned work habits.
+   * **Hobbies & Tastes:** Create scenarios covering their interests, music tastes, dietary habits, fitness activities, and specific media preferences.
+   * **Personality & Communication:** Generate summaries that reflect their different moods, humor style, and communication patterns.
+   * **Temporal Evolution:** Crucially, create a mix of interactions from their **early, skeptical phase** with the AI and their **later, reliant phase**.
+   * **Secret Projects:** Weave in scenarios where they make seemingly random research requests that are secretly related to hidden projects. Do NOT mention the secret projects directly in the summaries.
+4. **Format:** Output the list as a simple text file with each sentence on a new line, numbered.
+
+**Example Format:**
+1. User asks for a high-energy, lyric-free playlist for a long work session.
+2. User complains sarcastically about a frustrating request.
+3. User asks the assistant to find three quick recipes matching their dietary preferences.
+4. In a series of rapid messages, user brainstorms ideas for a project.
+5. User asks for a list of films by a specific director and where to stream them.
+6. User skeptically asks the assistant to confirm information they already know.
+7. User asks the assistant to draft an important message.
+8. (Secret Project) User asks for reference materials on a seemingly random topic.
+
+**Task:**
+Follow the instructions above to generate a list of {num_topics} unique, single-sentence summaries for potential chat interactions.

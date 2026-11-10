@@ -1,0 +1,80 @@
+{:jolt/min-version "0.8.25"
+
+ :paths ["src" "resources"]
+
+ :deps {;; the YAML training recipes, over the system libyaml
+        jolt-lang/yaml {:git/url "https://github.com/jolt-lang/yaml"
+                        :git/tag "v0.0.2"
+                        :git/sha "972b93c01685a6c02e40bae293ad51c78bcc743f"}}
+
+ ;; BLAS for the memory module's matrix products; DuckDB to read and write
+ ;; parquet; the llama.cpp shim for the decoder and the encoder. `jolt native`
+ ;; puts DuckDB and the shim in native/. The shim is optional so that
+ ;; everything but generation and embedding works (and is tested) without it.
+ :jolt/native [{:name "blas"
+                :darwin ["/System/Library/Frameworks/Accelerate.framework/Accelerate"]
+                :linux ["libopenblas.so.0" "libopenblas.so" "libcblas.so.3" "libblas.so.3"]}
+               {:name "duckdb"
+                :optional true
+                :darwin ["native/libduckdb.dylib"]
+                :linux ["native/libduckdb.so"]}
+               {:name "distilla_ops"
+                :optional true
+                :darwin ["native/libdistilla_ops.dylib"]
+                :linux ["native/libdistilla_ops.so"]}
+               {:name "distilla_llama"
+                :optional true
+                :darwin ["native/libdistilla_llama.dylib"]
+                :linux ["native/libdistilla_llama.so"]}]
+
+ :aliases {:test {:extra-paths ["test"]
+                  :main-opts ["-m" "distilla.test-runner"]}}
+
+ :tasks {:requires ([babashka.fs :as fs])
+
+         native {:doc "fetch DuckDB and build llama.cpp plus the distilla shim into native/ (DISTILLA_GPU=cuda|metal|vulkan|hip|none; DISTILLA_SKIP_LLAMA=1 for DuckDB only)"
+                 :task (shell "sh" "native/build.sh")}
+
+         test {:doc "run the unit tests (needs native/libduckdb from `jolt native`)"
+               :task (jolt "-M:test")}
+
+         evaluate {:doc "evaluate a memory checkpoint: jolt evaluate --benchmark pv4 --checkpoint DIR --decoder Q.gguf --encoder E.gguf"
+                   :main-opts ["-m" "distilla.evaluate"]}
+
+         baselines {:doc "text-only baselines: jolt baselines --method rag --benchmark all --decoder Q.gguf --encoder E.gguf"
+                    :main-opts ["-m" "distilla.baselines"]}
+
+         train {:doc "train a memory module against the frozen decoder: jolt train --config configs/stage3_multitask.yaml --decoder Q.gguf"
+                :main-opts ["-m" "distilla.train"]}
+
+         pv4-generate {:doc "generate PersonalizationV4 users from persona profiles (OpenAI-compatible API): jolt pv4-generate --persona_dir DIR --output_dir DIR"
+                       :main-opts ["-m" "distilla.pv4.generate"]}
+
+         pv4-build {:doc "build the PersonalizationV4 parquet splits: jolt pv4-build --users_dir DIR --output_dir DIR [--hard_subset CSV]"
+                    :main-opts ["-m" "distilla.pv4.build"]}
+
+         rl-games {:doc "generate TextWorld games per tier: jolt rl-games --output_dir games/medium_hard --tiers medium:0.3,hard:0.7 --num_games 400"
+                   :main-opts ["-m" "distilla.rl.dataset" "games"]}
+
+         rl-dataset {:doc "build the RL dataset: jolt rl-dataset --games_dirs games/a games/b --output_dir data/textworld"
+                     :main-opts ["-m" "distilla.rl.dataset" "dataset"]}
+
+         rl-train {:doc "GRPO-train the memory module on TextWorld: jolt rl-train --config configs/rl/textworld_grpo.yaml ..."
+                   :main-opts ["-m" "distilla.rl.main" "train"]}
+
+         rl-eval {:doc "evaluate on TextWorld: jolt rl-eval --config configs/rl/textworld_eval.yaml --model CKPT|untrained|no-memory ..."
+                  :main-opts ["-m" "distilla.rl.main" "eval"]}
+
+         rl-aggregate {:doc "avg@k, pass@k, reward, terminal and truncated rollouts per tier: jolt rl-aggregate EVAL_DIR... [--output F]"
+                       :main-opts ["-m" "distilla.rl.aggregate"]}
+
+         rl-export {:doc "export the memory module of an RL checkpoint (distilla or SkyRL): jolt rl-export CKPT OUT_DIR"
+                    :main-opts ["-m" "distilla.rl.export"]}
+
+         answer {:doc "answer one question from documents: jolt answer --checkpoint DIR --decoder Q.gguf --encoder E.gguf --question Q --documents docs.json"
+                 :main-opts ["-m" "distilla.answer"]}
+
+         fixtures {:doc "regenerate test/fixtures from the Python reference (dev/make_fixtures.py, needs torch, safetensors, nltk, rouge-score and MEMORILLA_SRC)"
+                   :task (shell "python3" "dev/make_fixtures.py" "test/fixtures")}
+
+         clean {:doc "remove build products" :task (fs/delete-tree "target")}}}

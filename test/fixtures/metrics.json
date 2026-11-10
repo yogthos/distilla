@@ -1,0 +1,299 @@
+{
+ "stems": {
+  "caresses": "caress",
+  "ponies": "poni",
+  "ties": "tie",
+  "caress": "caress",
+  "cats": "cat",
+  "feed": "feed",
+  "agreed": "agre",
+  "plastered": "plaster",
+  "bled": "bled",
+  "motoring": "motor",
+  "sing": "sing",
+  "conflated": "conflat",
+  "troubled": "troubl",
+  "sized": "size",
+  "hopping": "hop",
+  "tanned": "tan",
+  "falling": "fall",
+  "hissing": "hiss",
+  "fizzed": "fizz",
+  "failing": "fail",
+  "filing": "file",
+  "happy": "happi",
+  "sky": "sky",
+  "skies": "sky",
+  "dying": "die",
+  "lying": "lie",
+  "tying": "tie",
+  "news": "news",
+  "innings": "inning",
+  "outings": "outing",
+  "cannings": "canning",
+  "howe": "howe",
+  "proceed": "proceed",
+  "exceed": "exceed",
+  "succeed": "succeed",
+  "relational": "relat",
+  "conditional": "condit",
+  "rational": "ration",
+  "valenci": "valenc",
+  "hesitanci": "hesit",
+  "digitizer": "digit",
+  "conformabli": "conform",
+  "radicalli": "radic",
+  "differentli": "differ",
+  "vileli": "vile",
+  "analogousli": "analog",
+  "vietnamization": "vietnam",
+  "predication": "predic",
+  "operator": "oper",
+  "feudalism": "feudal",
+  "decisiveness": "decis",
+  "hopefulness": "hope",
+  "callousness": "callous",
+  "formaliti": "formal",
+  "sensitiviti": "sensit",
+  "sensibiliti": "sensibl",
+  "triplicate": "triplic",
+  "formative": "form",
+  "formalize": "formal",
+  "electriciti": "electr",
+  "electrical": "electr",
+  "hopeful": "hope",
+  "goodness": "good",
+  "revival": "reviv",
+  "allowance": "allow",
+  "inference": "infer",
+  "airliner": "airlin",
+  "gyroscopic": "gyroscop",
+  "adjustable": "adjust",
+  "defensible": "defens",
+  "irritant": "irrit",
+  "replacement": "replac",
+  "adjustment": "adjust",
+  "dependent": "depend",
+  "adoption": "adopt",
+  "homologou": "homolog",
+  "communism": "commun",
+  "activate": "activ",
+  "angulariti": "angular",
+  "homologous": "homolog",
+  "effective": "effect",
+  "bowdlerize": "bowdler",
+  "probate": "probat",
+  "rate": "rate",
+  "cease": "ceas",
+  "controll": "control",
+  "roll": "roll",
+  "generalizations": "gener",
+  "oscillators": "oscil",
+  "running": "run",
+  "runs": "run",
+  "ran": "ran",
+  "dogs": "dog",
+  "dog": "dog",
+  "studies": "studi",
+  "studying": "studi",
+  "study": "studi",
+  "cried": "cri",
+  "cries": "cri",
+  "flies": "fli",
+  "flying": "fli",
+  "died": "die",
+  "agreement": "agreement",
+  "abilities": "abil",
+  "ability": "abil",
+  "fullness": "full",
+  "ought": "ought",
+  "quickly": "quickli",
+  "quick": "quick",
+  "quickest": "quickest",
+  "the": "the",
+  "a": "a",
+  "an": "an",
+  "by": "by",
+  "is": "is",
+  "was": "wa",
+  "analogy": "analog",
+  "logically": "logic",
+  "biology": "biolog",
+  "apology": "apolog",
+  "meteorology": "meteorolog",
+  "ably": "abli",
+  "anomaly": "anomali",
+  "ies": "i",
+  "eed": "eed",
+  "ied": "i",
+  "dies": "die",
+  "hied": "hie",
+  "spied": "spi",
+  "tied": "tie",
+  "university": "univers",
+  "universal": "univers",
+  "universe": "univers",
+  "organization": "organ",
+  "organs": "organ",
+  "organic": "organ",
+  "yelling": "yell",
+  "yellowness": "yellow",
+  "sayings": "say",
+  "saying": "say",
+  "spying": "spi",
+  "mississippi": "mississippi",
+  "possessed": "possess",
+  "possesses": "possess",
+  "possession": "possess",
+  "possessions": "possess",
+  "xylophones": "xylophon",
+  "yeses": "yese",
+  "yy": "yy",
+  "y": "y",
+  "ys": "ys",
+  "oed": "o",
+  "ing": "ing"
+ },
+ "pairs": [
+  [
+   "the quick brown fox jumps over the lazy dog",
+   "the quick brown fox jumps over the lazy dog"
+  ],
+  [
+   "the cat",
+   "the cat sat on the mat"
+  ],
+  [
+   "running dogs",
+   "the dog runs"
+  ],
+  [
+   "alpha beta",
+   "gamma delta"
+  ],
+  [
+   "It is a guide to action which ensures that the military always obeys the commands of the party",
+   "It is a guide to action that ensures that the military will forever heed Party commands"
+  ],
+  [
+   "Paris is the capital of France.",
+   "The capital of France is Paris"
+  ],
+  [
+   "He studied the organizations carefully",
+   "she was studying organisational structures carefully"
+  ],
+  [
+   "",
+   "something"
+  ],
+  [
+   "yes. the results were significant",
+   "Yes. Results were statistically significant in all trials."
+  ],
+  [
+   "a a b",
+   "a c"
+  ]
+ ],
+ "bleu": [
+  {
+   "bleu1": 1.0,
+   "bleu4": 1.0
+  },
+  {
+   "bleu1": 0.1353352832366127,
+   "bleu4": 0.04279677428117006
+  },
+  {
+   "bleu1": 0,
+   "bleu4": 0
+  },
+  {
+   "bleu1": 0,
+   "bleu4": 0
+  },
+  {
+   "bleu1": 0.6666666666666666,
+   "bleu4": 0.4208598069524091
+  },
+  {
+   "bleu1": 0.8333333333333334,
+   "bleu4": 0.2295748846661433
+  },
+  {
+   "bleu1": 0.1637461506155964,
+   "bleu4": 0.0439891724758422
+  },
+  {
+   "bleu1": 0,
+   "bleu4": 0
+  },
+  {
+   "bleu1": 0.43904930887522114,
+   "bleu4": 0.07415543676501504
+  },
+  {
+   "bleu1": 0.3333333333333333,
+   "bleu4": 0.11362193664674995
+  }
+ ],
+ "corpus_bleu": {
+  "bleu1": 0.5607126171822207,
+  "bleu4": 0.3712701194286937
+ },
+ "rouge": [
+  {
+   "rouge1": 1.0,
+   "rougeL": 1.0
+  },
+  {
+   "rouge1": 0.5,
+   "rougeL": 0.5
+  },
+  {
+   "rouge1": 0.8,
+   "rougeL": 0.4
+  },
+  {
+   "rouge1": 0.0,
+   "rougeL": 0.0
+  },
+  {
+   "rouge1": 0.7058823529411765,
+   "rougeL": 0.6470588235294118
+  },
+  {
+   "rouge1": 1.0,
+   "rougeL": 0.6666666666666666
+  },
+  {
+   "rouge1": 0.3636363636363636,
+   "rougeL": 0.3636363636363636
+  },
+  {
+   "rouge1": 0.0,
+   "rougeL": 0
+  },
+  {
+   "rouge1": 0.6153846153846154,
+   "rougeL": 0.6153846153846154
+  },
+  {
+   "rouge1": 0.4,
+   "rougeL": 0.4
+  }
+ ],
+ "meteor": [
+  0.9993141289437586,
+  0.17857142857142855,
+  0.3448275862068965,
+  0.0,
+  0.6944444444444445,
+  0.7433333333333335,
+  0.1694915254237288,
+  0.0,
+  0.40990259740259744,
+  0.2380952380952381
+ ]
+}

@@ -1,0 +1,96 @@
+<QUESTION>
+Teaching Style & Students question 0?
+<CHOICE_A>
+Option alpha for Teaching Style & Students question 0?
+<CHOICE_B>
+Option bravo, with a comma, for Teaching Style & Students question 0?
+<CHOICE_C>
+Option "charlie" for Teaching Style & Students question 0?
+<CHOICE_D>
+Option delta for Teaching Style & Students question 0?
+<CHOICE_E>
+Option echo for Teaching Style & Students question 0?
+<CORRECT_CHOICE>
+B
+<RATIONALE>
+Because of the persona.
+<WORD_COUNTS>
+A: 4 | B: 4 | C: 4 | D: 4 | E: 4
+
+<QUESTION>
+Teaching Style & Students question 1?
+<CHOICE_A>
+Option alpha for Teaching Style & Students question 1?
+<CHOICE_B>
+Option bravo, with a comma, for Teaching Style & Students question 1?
+<CHOICE_C>
+Option "charlie" for Teaching Style & Students question 1?
+<CHOICE_D>
+Option delta for Teaching Style & Students question 1?
+<CHOICE_E>
+Option echo for Teaching Style & Students question 1?
+<CORRECT_CHOICE>
+D
+<RATIONALE>
+Because of the persona.
+<WORD_COUNTS>
+A: 4 | B: 4 | C: 4 | D: 4 | E: 4
+
+<QUESTION>
+Teaching Style & Students question 2?
+<CHOICE_A>
+Option alpha for Teaching Style & Students question 2?
+<CHOICE_B>
+Option bravo, with a comma, for Teaching Style & Students question 2?
+<CHOICE_C>
+Option "charlie" for Teaching Style & Students question 2?
+<CHOICE_D>
+Option delta for Teaching Style & Students question 2?
+<CHOICE_E>
+Option echo for Teaching Style & Students question 2?
+<CORRECT_CHOICE>
+A
+<RATIONALE>
+Because of the persona.
+<WORD_COUNTS>
+A: 4 | B: 4 | C: 4 | D: 4 | E: 4
+
+<QUESTION>
+Teaching Style & Students question 3?
+<CHOICE_A>
+Option alpha for Teaching Style & Students question 3?
+<CHOICE_B>
+Option bravo, with a comma, for Teaching Style & Students question 3?
+<CHOICE_C>
+Option "charlie" for Teaching Style & Students question 3?
+<CHOICE_D>
+Option delta for Teaching Style & Students question 3?
+<CHOICE_E>
+Option echo for Teaching Style & Students question 3?
+<CORRECT_CHOICE>
+E
+<RATIONALE>
+Because of the persona.
+<WORD_COUNTS>
+A: 4 | B: 4 | C: 4 | D: 4 | E: 4
+
+<QUESTION>
+Teaching Style & Students question 4?
+<CHOICE_A>
+Option alpha for Teaching Style & Students question 4?
+<CHOICE_B>
+Option bravo, with a comma, for Teaching Style & Students question 4?
+<CHOICE_C>
+Option "charlie" for Teaching Style & Students question 4?
+<CHOICE_D>
+Option delta for Teaching Style & Students question 4?
+<CHOICE_E>
+Option echo for Teaching Style & Students question 4?
+<CORRECT_CHOICE>
+C
+<RATIONALE>
+Because of the persona.
+<WORD_COUNTS>
+A: 4 | B: 4 | C: 4 | D: 4 | E: 4
+<QUESTION>
+A question without choices.

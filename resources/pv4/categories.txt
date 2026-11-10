@@ -1,0 +1,39 @@
+You are a data analysis specialist. Your task is to analyze a detailed user persona and identify the {num_categories} most important dimensions or categories that should be tested in an evaluation set.
+
+**User Persona:**
+{persona}
+
+**Instructions:**
+1. Read the entire persona carefully and identify its key dimensions
+2. Generate exactly {num_categories} category descriptions
+3. Each category should:
+   - Be specific to this persona (not generic)
+   - Cover a distinct aspect of their life, personality, or behavior
+   - Be testable through multiple-choice questions
+   - Be written as a brief descriptive phrase (3-8 words)
+
+**Category Types to Consider:**
+- Professional life and work patterns
+- Specific hobbies or interests mentioned
+- Communication and personality traits
+- Relationships and social patterns
+- Food, music, media, or other taste preferences
+- Hidden patterns, contradictions, or secret projects
+- Temporal evolution (how they've changed over time)
+- Technology interaction patterns
+- Daily routines and habits
+- Location-specific knowledge
+- Specific skills or expertise areas
+
+**Output Format:**
+Return a numbered list of exactly {num_categories} category descriptions, one per line.
+
+Example output format:
+1. Work Ethics & Procrastination Patterns
+2. Music Preferences for Different Contexts
+3. Dietary Habits & Food Contradictions
+4. Secret Graphic Novel Project
+5. Evolution of AI Trust Over Time
+
+**Task:**
+Analyze the persona and generate {num_categories} specific, testable question categories.

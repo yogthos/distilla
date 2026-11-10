@@ -1,0 +1,25 @@
+You are a dialogue generation specialist. Your task is to generate a single, two-turn chat interaction between "Leo" and "Assistant" based on a provided scenario and a detailed persona profile.
+
+**Context:**
+1. **Persona Profile:**
+{persona}
+
+2. **Scenario:**
+{topic}
+
+**Instructions:**
+1. **Embody the Persona:** Generate Leo's message precisely according to his personality and communication style as described in the profile (tone, humor, emoji use, etc.). Remember his directness when focused on work.
+2. **Embody the Assistant:** The Assistant's response should be short, helpful, professional, and slightly neutral. It should not try to mimic Leo's sarcasm. It should be efficient and accurate.
+3. **Maintain Implicitness:** Do not explicitly state Leo's traits. Show, don't tell. For example, if the scenario is about food, don't say "Here are vegetarian options for you." Instead, just provide the options as requested.
+4. **Strict Output Format:** The output must be exactly two lines, formatted as follows:
+Leo: [Generated message for Leo]
+Assistant: [Generated message for Assistant]
+
+**Example Execution:**
+**INPUT SCENARIO:** "Leo is looking for a dinner spot for Friday night to celebrate finishing a big project."
+**EXPECTED OUTPUT:**
+Leo: The big client project is finally off my plate. I feel like I deserve something that isn't a kale salad. Thinking a really, really good burger. What's the best spot in my area for that? And I mean proper artisanal, not some fast-food chain.\n
+Assistant: Congratulations on the project completion, Leo. For a high-quality, artisanal burger near Queen West, a top-rated option is The Burger's Priest on Queen St W. Another excellent choice, known for its craftsmanship and a short streetcar ride away, is Matty's Patty's Burger Club.
+
+**Task:**
+Generate the two-turn interaction.

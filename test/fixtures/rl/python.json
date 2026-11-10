@@ -1,0 +1,2770 @@
+{
+ "specs": [
+  {
+   "name": "game_00000_hard_w24_o28_q11_s10015.z8",
+   "tier": "hard",
+   "world_size": 24,
+   "nb_objects": 28,
+   "quest_length": 11,
+   "quest_breadth": 1,
+   "seed": 10015
+  },
+  {
+   "name": "game_00001_medium_w16_o22_q10_s19988.z8",
+   "tier": "medium",
+   "world_size": 16,
+   "nb_objects": 22,
+   "quest_length": 10,
+   "quest_breadth": 1,
+   "seed": 19988
+  },
+  {
+   "name": "game_00002_medium_w21_o12_q6_s29961.z8",
+   "tier": "medium",
+   "world_size": 21,
+   "nb_objects": 12,
+   "quest_length": 6,
+   "quest_breadth": 1,
+   "seed": 29961
+  },
+  {
+   "name": "game_00003_medium_w18_o20_q10_s39934.z8",
+   "tier": "medium",
+   "world_size": 18,
+   "nb_objects": 20,
+   "quest_length": 10,
+   "quest_breadth": 1,
+   "seed": 39934
+  },
+  {
+   "name": "game_00004_medium_w18_o22_q10_s49907.z8",
+   "tier": "medium",
+   "world_size": 18,
+   "nb_objects": 22,
+   "quest_length": 10,
+   "quest_breadth": 1,
+   "seed": 49907
+  },
+  {
+   "name": "game_00005_hard_w38_o28_q16_s59880.z8",
+   "tier": "hard",
+   "world_size": 38,
+   "nb_objects": 28,
+   "quest_length": 16,
+   "quest_breadth": 1,
+   "seed": 59880
+  },
+  {
+   "name": "game_00006_long_w27_o43_q20_s69853.json",
+   "tier": "long",
+   "world_size": 27,
+   "nb_objects": 43,
+   "quest_length": 20,
+   "quest_breadth": 2,
+   "seed": 69853
+  },
+  {
+   "name": "game_00007_medium_w20_o13_q6_s79826.z8",
+   "tier": "medium",
+   "world_size": 20,
+   "nb_objects": 13,
+   "quest_length": 6,
+   "quest_breadth": 1,
+   "seed": 79826
+  },
+  {
+   "name": "game_00008_hard_w35_o31_q14_s89799.z8",
+   "tier": "hard",
+   "world_size": 35,
+   "nb_objects": 31,
+   "quest_length": 14,
+   "quest_breadth": 1,
+   "seed": 89799
+  },
+  {
+   "name": "game_00009_medium_w15_o19_q10_s99772.z8",
+   "tier": "medium",
+   "world_size": 15,
+   "nb_objects": 19,
+   "quest_length": 10,
+   "quest_breadth": 1,
+   "seed": 99772
+  },
+  {
+   "name": "game_00010_medium_w21_o13_q10_s109745.z8",
+   "tier": "medium",
+   "world_size": 21,
+   "nb_objects": 13,
+   "quest_length": 10,
+   "quest_breadth": 1,
+   "seed": 109745
+  },
+  {
+   "name": "game_00011_medium_w25_o21_q8_s119718.z8",
+   "tier": "medium",
+   "world_size": 25,
+   "nb_objects": 21,
+   "quest_length": 8,
+   "quest_breadth": 1,
+   "seed": 119718
+  },
+  {
+   "name": "game_00012_hard_w26_o21_q15_s129691.z8",
+   "tier": "hard",
+   "world_size": 26,
+   "nb_objects": 21,
+   "quest_length": 15,
+   "quest_breadth": 1,
+   "seed": 129691
+  },
+  {
+   "name": "game_00013_medium_w19_o13_q7_s139664.z8",
+   "tier": "medium",
+   "world_size": 19,
+   "nb_objects": 13,
+   "quest_length": 7,
+   "quest_breadth": 1,
+   "seed": 139664
+  },
+  {
+   "name": "game_00014_long_w31_o38_q22_s149637.json",
+   "tier": "long",
+   "world_size": 31,
+   "nb_objects": 38,
+   "quest_length": 22,
+   "quest_breadth": 3,
+   "seed": 149637
+  },
+  {
+   "name": "game_00015_long_w27_o41_q20_s159610.json",
+   "tier": "long",
+   "world_size": 27,
+   "nb_objects": 41,
+   "quest_length": 20,
+   "quest_breadth": 1,
+   "seed": 159610
+  },
+  {
+   "name": "game_00016_hard_w26_o25_q14_s169583.z8",
+   "tier": "hard",
+   "world_size": 26,
+   "nb_objects": 25,
+   "quest_length": 14,
+   "quest_breadth": 1,
+   "seed": 169583
+  },
+  {
+   "name": "game_00017_long_w27_o44_q21_s179556.json",
+   "tier": "long",
+   "world_size": 27,
+   "nb_objects": 44,
+   "quest_length": 21,
+   "quest_breadth": 2,
+   "seed": 179556
+  },
+  {
+   "name": "game_00018_extreme_w57_o123_q70_s189529.json",
+   "tier": "extreme",
+   "world_size": 57,
+   "nb_objects": 123,
+   "quest_length": 70,
+   "quest_breadth": 1,
+   "seed": 189529
+  },
+  {
+   "name": "game_00019_medium_w15_o17_q9_s199502.z8",
+   "tier": "medium",
+   "world_size": 15,
+   "nb_objects": 17,
+   "quest_length": 9,
+   "quest_breadth": 1,
+   "seed": 199502
+  },
+  {
+   "name": "game_00020_medium_w18_o21_q8_s209475.z8",
+   "tier": "medium",
+   "world_size": 18,
+   "nb_objects": 21,
+   "quest_length": 8,
+   "quest_breadth": 1,
+   "seed": 209475
+  },
+  {
+   "name": "game_00021_medium_w22_o18_q9_s219448.z8",
+   "tier": "medium",
+   "world_size": 22,
+   "nb_objects": 18,
+   "quest_length": 9,
+   "quest_breadth": 1,
+   "seed": 219448
+  },
+  {
+   "name": "game_00022_medium_w17_o15_q10_s229421.z8",
+   "tier": "medium",
+   "world_size": 17,
+   "nb_objects": 15,
+   "quest_length": 10,
+   "quest_breadth": 1,
+   "seed": 229421
+  },
+  {
+   "name": "game_00023_hard_w37_o32_q12_s239394.z8",
+   "tier": "hard",
+   "world_size": 37,
+   "nb_objects": 32,
+   "quest_length": 12,
+   "quest_breadth": 1,
+   "seed": 239394
+  },
+  {
+   "name": "game_00024_medium_w17_o20_q9_s249367.z8",
+   "tier": "medium",
+   "world_size": 17,
+   "nb_objects": 20,
+   "quest_length": 9,
+   "quest_breadth": 1,
+   "seed": 249367
+  },
+  {
+   "name": "game_00025_medium_w15_o13_q7_s259340.z8",
+   "tier": "medium",
+   "world_size": 15,
+   "nb_objects": 13,
+   "quest_length": 7,
+   "quest_breadth": 1,
+   "seed": 259340
+  },
+  {
+   "name": "game_00026_hard_w37_o22_q13_s269313.z8",
+   "tier": "hard",
+   "world_size": 37,
+   "nb_objects": 22,
+   "quest_length": 13,
+   "quest_breadth": 1,
+   "seed": 269313
+  },
+  {
+   "name": "game_00027_hard_w38_o28_q14_s279286.z8",
+   "tier": "hard",
+   "world_size": 38,
+   "nb_objects": 28,
+   "quest_length": 14,
+   "quest_breadth": 1,
+   "seed": 279286
+  },
+  {
+   "name": "game_00028_long_w25_o33_q19_s289259.json",
+   "tier": "long",
+   "world_size": 25,
+   "nb_objects": 33,
+   "quest_length": 19,
+   "quest_breadth": 3,
+   "seed": 289259
+  },
+  {
+   "name": "game_00029_hard_w33_o33_q11_s299232.z8",
+   "tier": "hard",
+   "world_size": 33,
+   "nb_objects": 33,
+   "quest_length": 11,
+   "quest_breadth": 1,
+   "seed": 299232
+  },
+  {
+   "name": "game_00030_hard_w32_o25_q14_s309205.z8",
+   "tier": "hard",
+   "world_size": 32,
+   "nb_objects": 25,
+   "quest_length": 14,
+   "quest_breadth": 1,
+   "seed": 309205
+  },
+  {
+   "name": "game_00031_extreme_w59_o120_q66_s319178.json",
+   "tier": "extreme",
+   "world_size": 59,
+   "nb_objects": 120,
+   "quest_length": 66,
+   "quest_breadth": 1,
+   "seed": 319178
+  },
+  {
+   "name": "game_00032_hard_w29_o20_q14_s329151.z8",
+   "tier": "hard",
+   "world_size": 29,
+   "nb_objects": 20,
+   "quest_length": 14,
+   "quest_breadth": 1,
+   "seed": 329151
+  },
+  {
+   "name": "game_00033_hard_w24_o23_q12_s339124.z8",
+   "tier": "hard",
+   "world_size": 24,
+   "nb_objects": 23,
+   "quest_length": 12,
+   "quest_breadth": 1,
+   "seed": 339124
+  },
+  {
+   "name": "game_00034_long_w29_o37_q15_s349097.json",
+   "tier": "long",
+   "world_size": 29,
+   "nb_objects": 37,
+   "quest_length": 15,
+   "quest_breadth": 1,
+   "seed": 349097
+  },
+  {
+   "name": "game_00035_long_w26_o32_q22_s359070.json",
+   "tier": "long",
+   "world_size": 26,
+   "nb_objects": 32,
+   "quest_length": 22,
+   "quest_breadth": 1,
+   "seed": 359070
+  },
+  {
+   "name": "game_00036_extreme_w54_o88_q75_s369043.json",
+   "tier": "extreme",
+   "world_size": 54,
+   "nb_objects": 88,
+   "quest_length": 75,
+   "quest_breadth": 3,
+   "seed": 369043
+  },
+  {
+   "name": "game_00037_medium_w23_o21_q9_s379016.z8",
+   "tier": "medium",
+   "world_size": 23,
+   "nb_objects": 21,
+   "quest_length": 9,
+   "quest_breadth": 1,
+   "seed": 379016
+  },
+  {
+   "name": "game_00038_extreme_w56_o125_q69_s388989.json",
+   "tier": "extreme",
+   "world_size": 56,
+   "nb_objects": 125,
+   "quest_length": 69,
+   "quest_breadth": 2,
+   "seed": 388989
+  },
+  {
+   "name": "game_00039_extreme_w61_o108_q74_s398962.json",
+   "tier": "extreme",
+   "world_size": 61,
+   "nb_objects": 108,
+   "quest_length": 74,
+   "quest_breadth": 1,
+   "seed": 398962
+  }
+ ],
+ "dataset": {
+  "train": [
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "fast_textworld",
+    "game_file": "game_00018_extreme_w57_o123_q70_s189529.json",
+    "data_source": "extreme",
+    "extra_info": {
+     "row_index": 0,
+     "game_id": "game_00018_extreme_w57_o123_q70_s189529",
+     "tier": "extreme",
+     "world_size": 57,
+     "nb_objects": 123,
+     "quest_length": 70,
+     "game_seed": 189529,
+     "episode_index": 0,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "fast_textworld",
+    "game_file": "game_00036_extreme_w54_o88_q75_s369043.json",
+    "data_source": "extreme",
+    "extra_info": {
+     "row_index": 1,
+     "game_id": "game_00036_extreme_w54_o88_q75_s369043",
+     "tier": "extreme",
+     "world_size": 54,
+     "nb_objects": 88,
+     "quest_length": 75,
+     "game_seed": 369043,
+     "episode_index": 0,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "fast_textworld",
+    "game_file": "game_00039_extreme_w61_o108_q74_s398962.json",
+    "data_source": "extreme",
+    "extra_info": {
+     "row_index": 2,
+     "game_id": "game_00039_extreme_w61_o108_q74_s398962",
+     "tier": "extreme",
+     "world_size": 61,
+     "nb_objects": 108,
+     "quest_length": 74,
+     "game_seed": 398962,
+     "episode_index": 0,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are an agent in a text adventure game.\nThink briefly, then ALWAYS end with exactly one action line in this format:\n[ACTION: <command>]\nUse short game commands (look, inventory, examine, take, open, close, go north, etc.)."
+     },
+     {
+      "role": "user",
+      "content": "Start the game and choose the next best action."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00000_hard_w24_o28_q11_s10015.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 3,
+     "game_id": "game_00000_hard_w24_o28_q11_s10015",
+     "tier": "hard",
+     "world_size": 24,
+     "nb_objects": 28,
+     "quest_length": 11,
+     "game_seed": 10015,
+     "episode_index": 0,
+     "prompt_variant": "strict_action"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "Solve the game step by step.\nOutput must end with [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "Play optimally."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00000_hard_w24_o28_q11_s10015.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 4,
+     "game_id": "game_00000_hard_w24_o28_q11_s10015",
+     "tier": "hard",
+     "world_size": 24,
+     "nb_objects": 28,
+     "quest_length": 11,
+     "game_seed": 10015,
+     "episode_index": 1,
+     "prompt_variant": "compact"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are playing a text-based game.\nFinal line must be parseable as [ACTION: ...] with only a single command.\nDo not output multiple actions."
+     },
+     {
+      "role": "user",
+      "content": "Continue the game."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00005_hard_w38_o28_q16_s59880.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 5,
+     "game_id": "game_00005_hard_w38_o28_q16_s59880",
+     "tier": "hard",
+     "world_size": 38,
+     "nb_objects": 28,
+     "quest_length": 16,
+     "game_seed": 59880,
+     "episode_index": 0,
+     "prompt_variant": "parseable"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are an agent in a text adventure game.\nThink briefly, then ALWAYS end with exactly one action line in this format:\n[ACTION: <command>]\nUse short game commands (look, inventory, examine, take, open, close, go north, etc.)."
+     },
+     {
+      "role": "user",
+      "content": "Start the game and choose the next best action."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00005_hard_w38_o28_q16_s59880.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 6,
+     "game_id": "game_00005_hard_w38_o28_q16_s59880",
+     "tier": "hard",
+     "world_size": 38,
+     "nb_objects": 28,
+     "quest_length": 16,
+     "game_seed": 59880,
+     "episode_index": 1,
+     "prompt_variant": "strict_action"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "Solve the game step by step.\nOutput must end with [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "Play optimally."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00012_hard_w26_o21_q15_s129691.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 7,
+     "game_id": "game_00012_hard_w26_o21_q15_s129691",
+     "tier": "hard",
+     "world_size": 26,
+     "nb_objects": 21,
+     "quest_length": 15,
+     "game_seed": 129691,
+     "episode_index": 0,
+     "prompt_variant": "compact"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are playing a text-based game.\nFinal line must be parseable as [ACTION: ...] with only a single command.\nDo not output multiple actions."
+     },
+     {
+      "role": "user",
+      "content": "Continue the game."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00012_hard_w26_o21_q15_s129691.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 8,
+     "game_id": "game_00012_hard_w26_o21_q15_s129691",
+     "tier": "hard",
+     "world_size": 26,
+     "nb_objects": 21,
+     "quest_length": 15,
+     "game_seed": 129691,
+     "episode_index": 1,
+     "prompt_variant": "parseable"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00016_hard_w26_o25_q14_s169583.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 9,
+     "game_id": "game_00016_hard_w26_o25_q14_s169583",
+     "tier": "hard",
+     "world_size": 26,
+     "nb_objects": 25,
+     "quest_length": 14,
+     "game_seed": 169583,
+     "episode_index": 0,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "Solve the game step by step.\nOutput must end with [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "Play optimally."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00016_hard_w26_o25_q14_s169583.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 10,
+     "game_id": "game_00016_hard_w26_o25_q14_s169583",
+     "tier": "hard",
+     "world_size": 26,
+     "nb_objects": 25,
+     "quest_length": 14,
+     "game_seed": 169583,
+     "episode_index": 1,
+     "prompt_variant": "compact"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00032_hard_w29_o20_q14_s329151.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 11,
+     "game_id": "game_00032_hard_w29_o20_q14_s329151",
+     "tier": "hard",
+     "world_size": 29,
+     "nb_objects": 20,
+     "quest_length": 14,
+     "game_seed": 329151,
+     "episode_index": 0,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are playing a text-based game.\nFinal line must be parseable as [ACTION: ...] with only a single command.\nDo not output multiple actions."
+     },
+     {
+      "role": "user",
+      "content": "Continue the game."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00032_hard_w29_o20_q14_s329151.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 12,
+     "game_id": "game_00032_hard_w29_o20_q14_s329151",
+     "tier": "hard",
+     "world_size": 29,
+     "nb_objects": 20,
+     "quest_length": 14,
+     "game_seed": 329151,
+     "episode_index": 1,
+     "prompt_variant": "parseable"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "Solve the game step by step.\nOutput must end with [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "Play optimally."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00033_hard_w24_o23_q12_s339124.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 13,
+     "game_id": "game_00033_hard_w24_o23_q12_s339124",
+     "tier": "hard",
+     "world_size": 24,
+     "nb_objects": 23,
+     "quest_length": 12,
+     "game_seed": 339124,
+     "episode_index": 0,
+     "prompt_variant": "compact"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00033_hard_w24_o23_q12_s339124.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 14,
+     "game_id": "game_00033_hard_w24_o23_q12_s339124",
+     "tier": "hard",
+     "world_size": 24,
+     "nb_objects": 23,
+     "quest_length": 12,
+     "game_seed": 339124,
+     "episode_index": 1,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "fast_textworld",
+    "game_file": "game_00015_long_w27_o41_q20_s159610.json",
+    "data_source": "long",
+    "extra_info": {
+     "row_index": 15,
+     "game_id": "game_00015_long_w27_o41_q20_s159610",
+     "tier": "long",
+     "world_size": 27,
+     "nb_objects": 41,
+     "quest_length": 20,
+     "game_seed": 159610,
+     "episode_index": 0,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "fast_textworld",
+    "game_file": "game_00017_long_w27_o44_q21_s179556.json",
+    "data_source": "long",
+    "extra_info": {
+     "row_index": 16,
+     "game_id": "game_00017_long_w27_o44_q21_s179556",
+     "tier": "long",
+     "world_size": 27,
+     "nb_objects": 44,
+     "quest_length": 21,
+     "game_seed": 179556,
+     "episode_index": 0,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "fast_textworld",
+    "game_file": "game_00034_long_w29_o37_q15_s349097.json",
+    "data_source": "long",
+    "extra_info": {
+     "row_index": 17,
+     "game_id": "game_00034_long_w29_o37_q15_s349097",
+     "tier": "long",
+     "world_size": 29,
+     "nb_objects": 37,
+     "quest_length": 15,
+     "game_seed": 349097,
+     "episode_index": 0,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00001_medium_w16_o22_q10_s19988.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 18,
+     "game_id": "game_00001_medium_w16_o22_q10_s19988",
+     "tier": "medium",
+     "world_size": 16,
+     "nb_objects": 22,
+     "quest_length": 10,
+     "game_seed": 19988,
+     "episode_index": 0,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are an agent in a text adventure game.\nThink briefly, then ALWAYS end with exactly one action line in this format:\n[ACTION: <command>]\nUse short game commands (look, inventory, examine, take, open, close, go north, etc.)."
+     },
+     {
+      "role": "user",
+      "content": "Start the game and choose the next best action."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00001_medium_w16_o22_q10_s19988.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 19,
+     "game_id": "game_00001_medium_w16_o22_q10_s19988",
+     "tier": "medium",
+     "world_size": 16,
+     "nb_objects": 22,
+     "quest_length": 10,
+     "game_seed": 19988,
+     "episode_index": 1,
+     "prompt_variant": "strict_action"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are playing a text-based game.\nFinal line must be parseable as [ACTION: ...] with only a single command.\nDo not output multiple actions."
+     },
+     {
+      "role": "user",
+      "content": "Continue the game."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00002_medium_w21_o12_q6_s29961.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 20,
+     "game_id": "game_00002_medium_w21_o12_q6_s29961",
+     "tier": "medium",
+     "world_size": 21,
+     "nb_objects": 12,
+     "quest_length": 6,
+     "game_seed": 29961,
+     "episode_index": 0,
+     "prompt_variant": "parseable"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are an agent in a text adventure game.\nThink briefly, then ALWAYS end with exactly one action line in this format:\n[ACTION: <command>]\nUse short game commands (look, inventory, examine, take, open, close, go north, etc.)."
+     },
+     {
+      "role": "user",
+      "content": "Start the game and choose the next best action."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00002_medium_w21_o12_q6_s29961.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 21,
+     "game_id": "game_00002_medium_w21_o12_q6_s29961",
+     "tier": "medium",
+     "world_size": 21,
+     "nb_objects": 12,
+     "quest_length": 6,
+     "game_seed": 29961,
+     "episode_index": 1,
+     "prompt_variant": "strict_action"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00004_medium_w18_o22_q10_s49907.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 22,
+     "game_id": "game_00004_medium_w18_o22_q10_s49907",
+     "tier": "medium",
+     "world_size": 18,
+     "nb_objects": 22,
+     "quest_length": 10,
+     "game_seed": 49907,
+     "episode_index": 0,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are an agent in a text adventure game.\nThink briefly, then ALWAYS end with exactly one action line in this format:\n[ACTION: <command>]\nUse short game commands (look, inventory, examine, take, open, close, go north, etc.)."
+     },
+     {
+      "role": "user",
+      "content": "Start the game and choose the next best action."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00004_medium_w18_o22_q10_s49907.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 23,
+     "game_id": "game_00004_medium_w18_o22_q10_s49907",
+     "tier": "medium",
+     "world_size": 18,
+     "nb_objects": 22,
+     "quest_length": 10,
+     "game_seed": 49907,
+     "episode_index": 1,
+     "prompt_variant": "strict_action"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are playing a text-based game.\nFinal line must be parseable as [ACTION: ...] with only a single command.\nDo not output multiple actions."
+     },
+     {
+      "role": "user",
+      "content": "Continue the game."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00009_medium_w15_o19_q10_s99772.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 24,
+     "game_id": "game_00009_medium_w15_o19_q10_s99772",
+     "tier": "medium",
+     "world_size": 15,
+     "nb_objects": 19,
+     "quest_length": 10,
+     "game_seed": 99772,
+     "episode_index": 0,
+     "prompt_variant": "parseable"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00009_medium_w15_o19_q10_s99772.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 25,
+     "game_id": "game_00009_medium_w15_o19_q10_s99772",
+     "tier": "medium",
+     "world_size": 15,
+     "nb_objects": 19,
+     "quest_length": 10,
+     "game_seed": 99772,
+     "episode_index": 1,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are playing a text-based game.\nFinal line must be parseable as [ACTION: ...] with only a single command.\nDo not output multiple actions."
+     },
+     {
+      "role": "user",
+      "content": "Continue the game."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00013_medium_w19_o13_q7_s139664.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 26,
+     "game_id": "game_00013_medium_w19_o13_q7_s139664",
+     "tier": "medium",
+     "world_size": 19,
+     "nb_objects": 13,
+     "quest_length": 7,
+     "game_seed": 139664,
+     "episode_index": 0,
+     "prompt_variant": "parseable"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00013_medium_w19_o13_q7_s139664.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 27,
+     "game_id": "game_00013_medium_w19_o13_q7_s139664",
+     "tier": "medium",
+     "world_size": 19,
+     "nb_objects": 13,
+     "quest_length": 7,
+     "game_seed": 139664,
+     "episode_index": 1,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00019_medium_w15_o17_q9_s199502.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 28,
+     "game_id": "game_00019_medium_w15_o17_q9_s199502",
+     "tier": "medium",
+     "world_size": 15,
+     "nb_objects": 17,
+     "quest_length": 9,
+     "game_seed": 199502,
+     "episode_index": 0,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "Solve the game step by step.\nOutput must end with [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "Play optimally."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00019_medium_w15_o17_q9_s199502.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 29,
+     "game_id": "game_00019_medium_w15_o17_q9_s199502",
+     "tier": "medium",
+     "world_size": 15,
+     "nb_objects": 17,
+     "quest_length": 9,
+     "game_seed": 199502,
+     "episode_index": 1,
+     "prompt_variant": "compact"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are playing a text-based game.\nFinal line must be parseable as [ACTION: ...] with only a single command.\nDo not output multiple actions."
+     },
+     {
+      "role": "user",
+      "content": "Continue the game."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00021_medium_w22_o18_q9_s219448.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 30,
+     "game_id": "game_00021_medium_w22_o18_q9_s219448",
+     "tier": "medium",
+     "world_size": 22,
+     "nb_objects": 18,
+     "quest_length": 9,
+     "game_seed": 219448,
+     "episode_index": 0,
+     "prompt_variant": "parseable"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are playing a text-based game.\nFinal line must be parseable as [ACTION: ...] with only a single command.\nDo not output multiple actions."
+     },
+     {
+      "role": "user",
+      "content": "Continue the game."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00021_medium_w22_o18_q9_s219448.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 31,
+     "game_id": "game_00021_medium_w22_o18_q9_s219448",
+     "tier": "medium",
+     "world_size": 22,
+     "nb_objects": 18,
+     "quest_length": 9,
+     "game_seed": 219448,
+     "episode_index": 1,
+     "prompt_variant": "parseable"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are playing a text-based game.\nFinal line must be parseable as [ACTION: ...] with only a single command.\nDo not output multiple actions."
+     },
+     {
+      "role": "user",
+      "content": "Continue the game."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00022_medium_w17_o15_q10_s229421.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 32,
+     "game_id": "game_00022_medium_w17_o15_q10_s229421",
+     "tier": "medium",
+     "world_size": 17,
+     "nb_objects": 15,
+     "quest_length": 10,
+     "game_seed": 229421,
+     "episode_index": 0,
+     "prompt_variant": "parseable"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "Solve the game step by step.\nOutput must end with [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "Play optimally."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00022_medium_w17_o15_q10_s229421.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 33,
+     "game_id": "game_00022_medium_w17_o15_q10_s229421",
+     "tier": "medium",
+     "world_size": 17,
+     "nb_objects": 15,
+     "quest_length": 10,
+     "game_seed": 229421,
+     "episode_index": 1,
+     "prompt_variant": "compact"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are playing a text-based game.\nFinal line must be parseable as [ACTION: ...] with only a single command.\nDo not output multiple actions."
+     },
+     {
+      "role": "user",
+      "content": "Continue the game."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00025_medium_w15_o13_q7_s259340.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 34,
+     "game_id": "game_00025_medium_w15_o13_q7_s259340",
+     "tier": "medium",
+     "world_size": 15,
+     "nb_objects": 13,
+     "quest_length": 7,
+     "game_seed": 259340,
+     "episode_index": 0,
+     "prompt_variant": "parseable"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are playing a text-based game.\nFinal line must be parseable as [ACTION: ...] with only a single command.\nDo not output multiple actions."
+     },
+     {
+      "role": "user",
+      "content": "Continue the game."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00025_medium_w15_o13_q7_s259340.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 35,
+     "game_id": "game_00025_medium_w15_o13_q7_s259340",
+     "tier": "medium",
+     "world_size": 15,
+     "nb_objects": 13,
+     "quest_length": 7,
+     "game_seed": 259340,
+     "episode_index": 1,
+     "prompt_variant": "parseable"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "Solve the game step by step.\nOutput must end with [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "Play optimally."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00037_medium_w23_o21_q9_s379016.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 36,
+     "game_id": "game_00037_medium_w23_o21_q9_s379016",
+     "tier": "medium",
+     "world_size": 23,
+     "nb_objects": 21,
+     "quest_length": 9,
+     "game_seed": 379016,
+     "episode_index": 0,
+     "prompt_variant": "compact"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are an agent in a text adventure game.\nThink briefly, then ALWAYS end with exactly one action line in this format:\n[ACTION: <command>]\nUse short game commands (look, inventory, examine, take, open, close, go north, etc.)."
+     },
+     {
+      "role": "user",
+      "content": "Start the game and choose the next best action."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00037_medium_w23_o21_q9_s379016.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 37,
+     "game_id": "game_00037_medium_w23_o21_q9_s379016",
+     "tier": "medium",
+     "world_size": 23,
+     "nb_objects": 21,
+     "quest_length": 9,
+     "game_seed": 379016,
+     "episode_index": 1,
+     "prompt_variant": "strict_action"
+    }
+   }
+  ],
+  "validation": [
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "fast_textworld",
+    "game_file": "game_00038_extreme_w56_o125_q69_s388989.json",
+    "data_source": "extreme",
+    "extra_info": {
+     "row_index": 0,
+     "game_id": "game_00038_extreme_w56_o125_q69_s388989",
+     "tier": "extreme",
+     "world_size": 56,
+     "nb_objects": 125,
+     "quest_length": 69,
+     "game_seed": 388989,
+     "episode_index": 0,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are playing a text-based game.\nFinal line must be parseable as [ACTION: ...] with only a single command.\nDo not output multiple actions."
+     },
+     {
+      "role": "user",
+      "content": "Continue the game."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00026_hard_w37_o22_q13_s269313.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 1,
+     "game_id": "game_00026_hard_w37_o22_q13_s269313",
+     "tier": "hard",
+     "world_size": 37,
+     "nb_objects": 22,
+     "quest_length": 13,
+     "game_seed": 269313,
+     "episode_index": 0,
+     "prompt_variant": "parseable"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00026_hard_w37_o22_q13_s269313.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 2,
+     "game_id": "game_00026_hard_w37_o22_q13_s269313",
+     "tier": "hard",
+     "world_size": 37,
+     "nb_objects": 22,
+     "quest_length": 13,
+     "game_seed": 269313,
+     "episode_index": 1,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are an agent in a text adventure game.\nThink briefly, then ALWAYS end with exactly one action line in this format:\n[ACTION: <command>]\nUse short game commands (look, inventory, examine, take, open, close, go north, etc.)."
+     },
+     {
+      "role": "user",
+      "content": "Start the game and choose the next best action."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00029_hard_w33_o33_q11_s299232.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 3,
+     "game_id": "game_00029_hard_w33_o33_q11_s299232",
+     "tier": "hard",
+     "world_size": 33,
+     "nb_objects": 33,
+     "quest_length": 11,
+     "game_seed": 299232,
+     "episode_index": 0,
+     "prompt_variant": "strict_action"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are playing a text-based game.\nFinal line must be parseable as [ACTION: ...] with only a single command.\nDo not output multiple actions."
+     },
+     {
+      "role": "user",
+      "content": "Continue the game."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00029_hard_w33_o33_q11_s299232.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 4,
+     "game_id": "game_00029_hard_w33_o33_q11_s299232",
+     "tier": "hard",
+     "world_size": 33,
+     "nb_objects": 33,
+     "quest_length": 11,
+     "game_seed": 299232,
+     "episode_index": 1,
+     "prompt_variant": "parseable"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are an agent in a text adventure game.\nThink briefly, then ALWAYS end with exactly one action line in this format:\n[ACTION: <command>]\nUse short game commands (look, inventory, examine, take, open, close, go north, etc.)."
+     },
+     {
+      "role": "user",
+      "content": "Start the game and choose the next best action."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00030_hard_w32_o25_q14_s309205.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 5,
+     "game_id": "game_00030_hard_w32_o25_q14_s309205",
+     "tier": "hard",
+     "world_size": 32,
+     "nb_objects": 25,
+     "quest_length": 14,
+     "game_seed": 309205,
+     "episode_index": 0,
+     "prompt_variant": "strict_action"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00030_hard_w32_o25_q14_s309205.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 6,
+     "game_id": "game_00030_hard_w32_o25_q14_s309205",
+     "tier": "hard",
+     "world_size": 32,
+     "nb_objects": 25,
+     "quest_length": 14,
+     "game_seed": 309205,
+     "episode_index": 1,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "fast_textworld",
+    "game_file": "game_00006_long_w27_o43_q20_s69853.json",
+    "data_source": "long",
+    "extra_info": {
+     "row_index": 7,
+     "game_id": "game_00006_long_w27_o43_q20_s69853",
+     "tier": "long",
+     "world_size": 27,
+     "nb_objects": 43,
+     "quest_length": 20,
+     "game_seed": 69853,
+     "episode_index": 0,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "fast_textworld",
+    "game_file": "game_00028_long_w25_o33_q19_s289259.json",
+    "data_source": "long",
+    "extra_info": {
+     "row_index": 8,
+     "game_id": "game_00028_long_w25_o33_q19_s289259",
+     "tier": "long",
+     "world_size": 25,
+     "nb_objects": 33,
+     "quest_length": 19,
+     "game_seed": 289259,
+     "episode_index": 0,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00007_medium_w20_o13_q6_s79826.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 9,
+     "game_id": "game_00007_medium_w20_o13_q6_s79826",
+     "tier": "medium",
+     "world_size": 20,
+     "nb_objects": 13,
+     "quest_length": 6,
+     "game_seed": 79826,
+     "episode_index": 0,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "Solve the game step by step.\nOutput must end with [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "Play optimally."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00007_medium_w20_o13_q6_s79826.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 10,
+     "game_id": "game_00007_medium_w20_o13_q6_s79826",
+     "tier": "medium",
+     "world_size": 20,
+     "nb_objects": 13,
+     "quest_length": 6,
+     "game_seed": 79826,
+     "episode_index": 1,
+     "prompt_variant": "compact"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "Solve the game step by step.\nOutput must end with [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "Play optimally."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00010_medium_w21_o13_q10_s109745.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 11,
+     "game_id": "game_00010_medium_w21_o13_q10_s109745",
+     "tier": "medium",
+     "world_size": 21,
+     "nb_objects": 13,
+     "quest_length": 10,
+     "game_seed": 109745,
+     "episode_index": 0,
+     "prompt_variant": "compact"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "Solve the game step by step.\nOutput must end with [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "Play optimally."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00010_medium_w21_o13_q10_s109745.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 12,
+     "game_id": "game_00010_medium_w21_o13_q10_s109745",
+     "tier": "medium",
+     "world_size": 21,
+     "nb_objects": 13,
+     "quest_length": 10,
+     "game_seed": 109745,
+     "episode_index": 1,
+     "prompt_variant": "compact"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are an agent in a text adventure game.\nThink briefly, then ALWAYS end with exactly one action line in this format:\n[ACTION: <command>]\nUse short game commands (look, inventory, examine, take, open, close, go north, etc.)."
+     },
+     {
+      "role": "user",
+      "content": "Start the game and choose the next best action."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00011_medium_w25_o21_q8_s119718.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 13,
+     "game_id": "game_00011_medium_w25_o21_q8_s119718",
+     "tier": "medium",
+     "world_size": 25,
+     "nb_objects": 21,
+     "quest_length": 8,
+     "game_seed": 119718,
+     "episode_index": 0,
+     "prompt_variant": "strict_action"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "Solve the game step by step.\nOutput must end with [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "Play optimally."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00011_medium_w25_o21_q8_s119718.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 14,
+     "game_id": "game_00011_medium_w25_o21_q8_s119718",
+     "tier": "medium",
+     "world_size": 25,
+     "nb_objects": 21,
+     "quest_length": 8,
+     "game_seed": 119718,
+     "episode_index": 1,
+     "prompt_variant": "compact"
+    }
+   }
+  ],
+  "test": [
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "fast_textworld",
+    "game_file": "game_00031_extreme_w59_o120_q66_s319178.json",
+    "data_source": "extreme",
+    "extra_info": {
+     "row_index": 0,
+     "game_id": "game_00031_extreme_w59_o120_q66_s319178",
+     "tier": "extreme",
+     "world_size": 59,
+     "nb_objects": 120,
+     "quest_length": 66,
+     "game_seed": 319178,
+     "episode_index": 0,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are an agent in a text adventure game.\nThink briefly, then ALWAYS end with exactly one action line in this format:\n[ACTION: <command>]\nUse short game commands (look, inventory, examine, take, open, close, go north, etc.)."
+     },
+     {
+      "role": "user",
+      "content": "Start the game and choose the next best action."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00008_hard_w35_o31_q14_s89799.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 1,
+     "game_id": "game_00008_hard_w35_o31_q14_s89799",
+     "tier": "hard",
+     "world_size": 35,
+     "nb_objects": 31,
+     "quest_length": 14,
+     "game_seed": 89799,
+     "episode_index": 0,
+     "prompt_variant": "strict_action"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are playing a text-based game.\nFinal line must be parseable as [ACTION: ...] with only a single command.\nDo not output multiple actions."
+     },
+     {
+      "role": "user",
+      "content": "Continue the game."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00008_hard_w35_o31_q14_s89799.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 2,
+     "game_id": "game_00008_hard_w35_o31_q14_s89799",
+     "tier": "hard",
+     "world_size": 35,
+     "nb_objects": 31,
+     "quest_length": 14,
+     "game_seed": 89799,
+     "episode_index": 1,
+     "prompt_variant": "parseable"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "Solve the game step by step.\nOutput must end with [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "Play optimally."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00023_hard_w37_o32_q12_s239394.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 3,
+     "game_id": "game_00023_hard_w37_o32_q12_s239394",
+     "tier": "hard",
+     "world_size": 37,
+     "nb_objects": 32,
+     "quest_length": 12,
+     "game_seed": 239394,
+     "episode_index": 0,
+     "prompt_variant": "compact"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00023_hard_w37_o32_q12_s239394.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 4,
+     "game_id": "game_00023_hard_w37_o32_q12_s239394",
+     "tier": "hard",
+     "world_size": 37,
+     "nb_objects": 32,
+     "quest_length": 12,
+     "game_seed": 239394,
+     "episode_index": 1,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00027_hard_w38_o28_q14_s279286.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 5,
+     "game_id": "game_00027_hard_w38_o28_q14_s279286",
+     "tier": "hard",
+     "world_size": 38,
+     "nb_objects": 28,
+     "quest_length": 14,
+     "game_seed": 279286,
+     "episode_index": 0,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are playing a text-based game.\nFinal line must be parseable as [ACTION: ...] with only a single command.\nDo not output multiple actions."
+     },
+     {
+      "role": "user",
+      "content": "Continue the game."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00027_hard_w38_o28_q14_s279286.z8",
+    "data_source": "hard",
+    "extra_info": {
+     "row_index": 6,
+     "game_id": "game_00027_hard_w38_o28_q14_s279286",
+     "tier": "hard",
+     "world_size": 38,
+     "nb_objects": 28,
+     "quest_length": 14,
+     "game_seed": 279286,
+     "episode_index": 1,
+     "prompt_variant": "parseable"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "fast_textworld",
+    "game_file": "game_00014_long_w31_o38_q22_s149637.json",
+    "data_source": "long",
+    "extra_info": {
+     "row_index": 7,
+     "game_id": "game_00014_long_w31_o38_q22_s149637",
+     "tier": "long",
+     "world_size": 31,
+     "nb_objects": 38,
+     "quest_length": 22,
+     "game_seed": 149637,
+     "episode_index": 0,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You play TextWorld efficiently.\nUse memory summaries when useful and avoid repeating failed actions.\nReturn one final action command in the format [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "What is your next action?"
+     }
+    ],
+    "env_class": "fast_textworld",
+    "game_file": "game_00035_long_w26_o32_q22_s359070.json",
+    "data_source": "long",
+    "extra_info": {
+     "row_index": 8,
+     "game_id": "game_00035_long_w26_o32_q22_s359070",
+     "tier": "long",
+     "world_size": 26,
+     "nb_objects": 32,
+     "quest_length": 22,
+     "game_seed": 359070,
+     "episode_index": 0,
+     "prompt_variant": "memory_first"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "Solve the game step by step.\nOutput must end with [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "Play optimally."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00003_medium_w18_o20_q10_s39934.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 9,
+     "game_id": "game_00003_medium_w18_o20_q10_s39934",
+     "tier": "medium",
+     "world_size": 18,
+     "nb_objects": 20,
+     "quest_length": 10,
+     "game_seed": 39934,
+     "episode_index": 0,
+     "prompt_variant": "compact"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "Solve the game step by step.\nOutput must end with [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "Play optimally."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00003_medium_w18_o20_q10_s39934.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 10,
+     "game_id": "game_00003_medium_w18_o20_q10_s39934",
+     "tier": "medium",
+     "world_size": 18,
+     "nb_objects": 20,
+     "quest_length": 10,
+     "game_seed": 39934,
+     "episode_index": 1,
+     "prompt_variant": "compact"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are playing a text-based game.\nFinal line must be parseable as [ACTION: ...] with only a single command.\nDo not output multiple actions."
+     },
+     {
+      "role": "user",
+      "content": "Continue the game."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00020_medium_w18_o21_q8_s209475.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 11,
+     "game_id": "game_00020_medium_w18_o21_q8_s209475",
+     "tier": "medium",
+     "world_size": 18,
+     "nb_objects": 21,
+     "quest_length": 8,
+     "game_seed": 209475,
+     "episode_index": 0,
+     "prompt_variant": "parseable"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are playing a text-based game.\nFinal line must be parseable as [ACTION: ...] with only a single command.\nDo not output multiple actions."
+     },
+     {
+      "role": "user",
+      "content": "Continue the game."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00020_medium_w18_o21_q8_s209475.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 12,
+     "game_id": "game_00020_medium_w18_o21_q8_s209475",
+     "tier": "medium",
+     "world_size": 18,
+     "nb_objects": 21,
+     "quest_length": 8,
+     "game_seed": 209475,
+     "episode_index": 1,
+     "prompt_variant": "parseable"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "You are an agent in a text adventure game.\nThink briefly, then ALWAYS end with exactly one action line in this format:\n[ACTION: <command>]\nUse short game commands (look, inventory, examine, take, open, close, go north, etc.)."
+     },
+     {
+      "role": "user",
+      "content": "Start the game and choose the next best action."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00024_medium_w17_o20_q9_s249367.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 13,
+     "game_id": "game_00024_medium_w17_o20_q9_s249367",
+     "tier": "medium",
+     "world_size": 17,
+     "nb_objects": 20,
+     "quest_length": 9,
+     "game_seed": 249367,
+     "episode_index": 0,
+     "prompt_variant": "strict_action"
+    }
+   },
+   {
+    "prompt": [
+     {
+      "role": "system",
+      "content": "Solve the game step by step.\nOutput must end with [ACTION: <command>]."
+     },
+     {
+      "role": "user",
+      "content": "Play optimally."
+     }
+    ],
+    "env_class": "textworld",
+    "game_file": "game_00024_medium_w17_o20_q9_s249367.z8",
+    "data_source": "medium",
+    "extra_info": {
+     "row_index": 14,
+     "game_id": "game_00024_medium_w17_o20_q9_s249367",
+     "tier": "medium",
+     "world_size": 17,
+     "nb_objects": 20,
+     "quest_length": 9,
+     "game_seed": 249367,
+     "episode_index": 1,
+     "prompt_variant": "compact"
+    }
+   }
+  ]
+ },
+ "rollouts": [
+  {
+   "score": 0.5,
+   "stop_reason": "stop",
+   "data_source": "medium",
+   "env_extras": {
+    "game_file": "g0",
+    "extra_info": {
+     "row_index": 0
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stop_reason": "length",
+   "data_source": "hard",
+   "env_extras": {
+    "game_file": "g0",
+    "extra_info": {
+     "row_index": 0
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stop_reason": "stop",
+   "data_source": "long",
+   "env_extras": {
+    "game_file": "g0",
+    "extra_info": {
+     "row_index": 0
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stop_reason": "stop",
+   "data_source": "medium",
+   "env_extras": {
+    "game_file": "g1",
+    "extra_info": {
+     "row_index": 0
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "stop_reason": "length",
+   "data_source": "hard",
+   "env_extras": {
+    "game_file": "g1",
+    "extra_info": {
+     "row_index": 0
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stop_reason": "stop",
+   "data_source": "long",
+   "env_extras": {
+    "game_file": "g1",
+    "extra_info": {
+     "row_index": 0
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stop_reason": "stop",
+   "data_source": "medium",
+   "env_extras": {
+    "game_file": "g2",
+    "extra_info": {
+     "row_index": 1
+    }
+   }
+  },
+  {
+   "score": 0.5,
+   "stop_reason": "length",
+   "data_source": "hard",
+   "env_extras": {
+    "game_file": "g2",
+    "extra_info": {
+     "row_index": 1
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "stop_reason": "stop",
+   "data_source": "long",
+   "env_extras": {
+    "game_file": "g2",
+    "extra_info": {
+     "row_index": 1
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stop_reason": "stop",
+   "data_source": "medium",
+   "env_extras": {
+    "game_file": "g3",
+    "extra_info": {
+     "row_index": 1
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stop_reason": "length",
+   "data_source": "hard",
+   "env_extras": {
+    "game_file": "g3",
+    "extra_info": {
+     "row_index": 1
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stop_reason": "stop",
+   "data_source": "long",
+   "env_extras": {
+    "game_file": "g3",
+    "extra_info": {
+     "row_index": 1
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "stop_reason": "stop",
+   "data_source": "medium",
+   "env_extras": {
+    "game_file": "g4",
+    "extra_info": {
+     "row_index": 2
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stop_reason": "length",
+   "data_source": "hard",
+   "env_extras": {
+    "game_file": "g4",
+    "extra_info": {
+     "row_index": 2
+    }
+   }
+  },
+  {
+   "score": 0.5,
+   "stop_reason": "stop",
+   "data_source": "long",
+   "env_extras": {
+    "game_file": "g4",
+    "extra_info": {
+     "row_index": 2
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stop_reason": "stop",
+   "data_source": "medium",
+   "env_extras": {
+    "game_file": "g5",
+    "extra_info": {
+     "row_index": 2
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "stop_reason": "length",
+   "data_source": "hard",
+   "env_extras": {
+    "game_file": "g5",
+    "extra_info": {
+     "row_index": 2
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stop_reason": "stop",
+   "data_source": "long",
+   "env_extras": {
+    "game_file": "g5",
+    "extra_info": {
+     "row_index": 2
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stop_reason": "stop",
+   "data_source": "medium",
+   "env_extras": {
+    "game_file": "g6",
+    "extra_info": {
+     "row_index": 3
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stop_reason": "length",
+   "data_source": "hard",
+   "env_extras": {
+    "game_file": "g6",
+    "extra_info": {
+     "row_index": 3
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "stop_reason": "stop",
+   "data_source": "long",
+   "env_extras": {
+    "game_file": "g6",
+    "extra_info": {
+     "row_index": 3
+    }
+   }
+  },
+  {
+   "score": 0.5,
+   "stop_reason": "stop",
+   "data_source": "medium",
+   "env_extras": {
+    "game_file": "g7",
+    "extra_info": {
+     "row_index": 3
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stop_reason": "length",
+   "data_source": "hard",
+   "env_extras": {
+    "game_file": "g7",
+    "extra_info": {
+     "row_index": 3
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stop_reason": "stop",
+   "data_source": "long",
+   "env_extras": {
+    "game_file": "g7",
+    "extra_info": {
+     "row_index": 3
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "stop_reason": "stop",
+   "data_source": "medium",
+   "env_extras": {
+    "game_file": "g8",
+    "extra_info": {
+     "row_index": 4
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stop_reason": "length",
+   "data_source": "hard",
+   "env_extras": {
+    "game_file": "g8",
+    "extra_info": {
+     "row_index": 4
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stop_reason": "stop",
+   "data_source": "long",
+   "env_extras": {
+    "game_file": "g8",
+    "extra_info": {
+     "row_index": 4
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stop_reason": "stop",
+   "data_source": "medium",
+   "env_extras": {
+    "game_file": "g9",
+    "extra_info": {
+     "row_index": 4
+    }
+   }
+  },
+  {
+   "score": 0.5,
+   "stop_reason": "length",
+   "data_source": "hard",
+   "env_extras": {
+    "game_file": "g9",
+    "extra_info": {
+     "row_index": 4
+    }
+   }
+  },
+  {
+   "score": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stop_reason": "stop",
+   "data_source": "long",
+   "env_extras": {
+    "game_file": "g9",
+    "extra_info": {
+     "row_index": 4
+    }
+   }
+  }
+ ],
+ "scores": {
+  "medium": {
+   "episodes": 10,
+   "rollouts": 10,
+   "avg@k": 0.4,
+   "pass@k": 0.4,
+   "mean_reward": 0.3,
+   "terminal": 1.0,
+   "truncated": 0.0
+  },
+  "all": {
+   "episodes": 10,
+   "rollouts": 30,
+   "avg@k": 0.36666666666666664,
+   "pass@k": 0.9,
+   "mean_reward": 0.2833333333333333,
+   "terminal": 0.6666666666666666,
+   "truncated": 0.3333333333333333
+  },
+  "hard": {
+   "episodes": 10,
+   "rollouts": 10,
+   "avg@k": 0.4,
+   "pass@k": 0.4,
+   "mean_reward": 0.3,
+   "terminal": 0.0,
+   "truncated": 1.0
+  },
+  "long": {
+   "episodes": 10,
+   "rollouts": 10,
+   "avg@k": 0.3,
+   "pass@k": 0.3,
+   "mean_reward": 0.25,
+   "terminal": 1.0,
+   "truncated": 0.0
+  }
+ },
+ "average": {
+  "hard": {
+   "episodes": 7.0,
+   "rollouts": 7.0,
+   "avg@k": 0.45,
+   "pass@k": 0.45,
+   "mean_reward": 0.3375,
+   "terminal": 0.0,
+   "truncated": 1.0
+  },
+  "long": {
+   "episodes": 7.0,
+   "rollouts": 7.0,
+   "avg@k": 0.275,
+   "pass@k": 0.275,
+   "mean_reward": 0.25,
+   "terminal": 1.0,
+   "truncated": 0.0
+  },
+  "medium": {
+   "episodes": 7.0,
+   "rollouts": 7.0,
+   "avg@k": 0.325,
+   "pass@k": 0.325,
+   "mean_reward": 0.2125,
+   "terminal": 1.0,
+   "truncated": 0.0
+  },
+  "all": {
+   "episodes": 7.0,
+   "rollouts": 21.0,
+   "avg@k": 0.35,
+   "pass@k": 0.825,
+   "mean_reward": 0.26666666666666666,
+   "terminal": 0.6666666666666666,
+   "truncated": 0.3333333333333333
+  }
+ },
+ "actions": [
+  [
+   "I think so.\n[ACTION: go north]",
+   "go north"
+  ],
+  [
+   "<think>x</think>I will open the box.\nmore",
+   "open the box"
+  ],
+  [
+   "Let me take the key",
+   "take the key"
+  ],
+  [
+   "[action:  unlock door with key ]",
+   "unlock door with key"
+  ],
+  [
+   "",
+   ""
+  ],
+  [
+   "\"look\".",
+   "look"
+  ],
+  [
+   "Action: eat apple; and then $$ (drop it)",
+   "eat apple and then  drop it"
+  ],
+  [
+   "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  ],
+  [
+   "</think>",
+   ""
+  ],
+  [
+   "I'll  go   west\n\nthen east",
+   "go   west"
+  ]
+ ],
+ "documents": [
+  "Turns 3-4 | Reward: 1.0 | Score Change: 0\n\nTurn 3:\nObs: Room 3: a long \nAct: go 3 -> Reward: 1.0\n\nTurn 4:\nObs: Room 4: a long \nAct: go 4",
+  "Turns 5-6 | Reward: 1.0 | Score Change: 1\n\nTurn 5:\nObs: Room 5: a long \nAct: go 5\n\nTurn 6:\nObs: Room 6: a long \nAct: go 6 -> Reward: 1.0",
+  "Turns 7-7 | Reward: 0.0 | Score Change: 0\n\nTurn 7:\nObs: Room 7: a long \nAct: go 7"
+ ]
+}
